@@ -1,18 +1,33 @@
 body{
     color: rgb(7, 6, 7);
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
+#cabecera{
+    background: cornflowerblue;
+    box-shadow: 0px 5px 30px 0px rgb(0,0,0,0.5);
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0, 5cm;
+}
+
 #container{
     width:  70%;
-    padding: 1cm;
+    padding: 0;
     text-align: left;
     border: 3px solid rgb(192, 192, 192);
     margin: 0 auto;
+}
+
+#cabecera #tagline{
+    padding: 1cm 0 0 0;
+    font-weight: normal;
+    font-size: 0.8cm;
 }
 
 #container h1 {
